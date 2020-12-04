@@ -1,0 +1,18 @@
+branch-defaults:
+  master:
+    environment: blog-env
+    group_suffix: null
+global:
+  application_name: blog
+  branch: null
+  default_ec2_keyname: school_managemnt_staging
+  default_platform: Puma with Ruby 2.5 running on 64bit Amazon Linux/2.12.1
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
