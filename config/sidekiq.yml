@@ -3,5 +3,5 @@
   - default
 :schedule:
   autocreate_blog:
-    every: 10s   # Runs once per minute
+    every: 20s   # Runs once per minute
     class: AutocreateBlogWorker
