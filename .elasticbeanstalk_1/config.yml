@@ -1,18 +1,19 @@
 branch-defaults:
   master:
-    environment: blog1-env-2
-    group_suffix: null
+    environment: Blog3-env
+environment-defaults:
+  Blog3-env:
+    branch: null
+    repository: null
 global:
-  application_name: blog1
-  branch: null
+  application_name: blog3
   default_ec2_keyname: null
-  default_platform: Puma with Ruby 2.6 running on 64bit Amazon Linux/2.12.2
+  default_platform: Puma with Ruby 2.5 running on 64bit Amazon Linux
   default_region: us-east-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: eb-cli
-  repository: null
+  profile: tbagchi
   sc: git
   workspace_type: Application
