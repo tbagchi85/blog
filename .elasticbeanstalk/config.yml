@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: blog1-env
+    environment: blog1-env-2
     group_suffix: null
 global:
   application_name: blog1
