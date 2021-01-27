@@ -6,6 +6,6 @@ class AutocreateBlogWorker < ApplicationJob
 #  sidekiq_options retry: false
 
   def perform
-  	Article.create(title: "Title #{Time.current} V1", description: "Some description #{Article.last.id} - Version 1")
+  	Article.create(title: "Title #{Time.current} V2", description: "Some description #{Article.last.id} - Version 2x	")
   end
 end
