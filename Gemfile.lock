@@ -66,6 +66,7 @@ GEM
     concurrent-ruby (1.1.7)
     connection_pool (2.2.3)
     crass (1.0.6)
+    daemons (1.3.1)
     erubi (1.10.0)
     execjs (2.7.0)
     ffi (1.13.1)
@@ -186,6 +187,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   clockwork
   coffee-rails (~> 4.2)
+  daemons
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
