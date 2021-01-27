@@ -1,9 +1,9 @@
-require 'sidekiq'
-require 'sidekiq-scheduler'
+#require 'sidekiq'
+#require 'sidekiq-scheduler'
 
-class AutocreateBlogWorker
-  include Sidekiq::Worker
-  sidekiq_options retry: false
+class AutocreateBlogWorker < ApplicationJob
+#  include Sidekiq::Worker
+#  sidekiq_options retry: false
 
   def perform
   	Article.create(title: "Title #{Time.current}", description: "Some description #{Article.last.id}")

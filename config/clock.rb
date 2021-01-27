@@ -1,11 +1,11 @@
-# require boot & environment for a Rails app
-require_relative "../config/boot"
-require_relative "../config/environment"
+# # require boot & environment for a Rails app
+# require_relative "../config/boot"
+# require_relative "../config/environment"
 
-require 'clockwork'
+# require 'clockwork'
 
-module Clockwork
+# module Clockwork
 
-  every(10.seconds) { AutocreateBlogWorker.perform_async }
+#   every(10.seconds) { AutocreateBlogWorker.perform_async }
 
-end
+# end
